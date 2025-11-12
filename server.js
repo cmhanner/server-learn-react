@@ -2,6 +2,7 @@ const express = require ("express");
 const cors = require("cors");
 const multer = require("multer");
 const app = express();
+const Joi = require("joi") //  have to install
 app.use(express.static("public"));
 app.use(express.json());
 app.use(cors());
